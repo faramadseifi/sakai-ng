@@ -15,7 +15,7 @@ import { LayoutService } from '../service/layout.service';
                 <i class="pi pi-bars"></i>
             </button>
             <a class="layout-topbar-logo" routerLink="/">
-                <span>SAKAI</span>
+                <span>app-name</span>
             </a>
         </div>
     </div>`
