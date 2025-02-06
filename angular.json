@@ -20,6 +20,7 @@
                         "outputPath": "dist",
                         "index": "src/index.html",
                         "browser": "src/main.ts",
+                        "allowedCommonJsDependencies": [],
                         "polyfills": [
                             "zone.js"
                         ],
@@ -41,7 +42,7 @@
                             "budgets": [
                                 {
                                     "type": "initial",
-                                    "maximumWarning": "1mb",
+                                    "maximumWarning": "2mb",
                                     "maximumError": "5mb"
                                 },
                                 {
